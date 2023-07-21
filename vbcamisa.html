@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VB-imported</title>
+    <link rel="stylesheet" href="vbCSS/vb.css">
+    <link rel="stylesheet" href="vbCSS/vbcamisa.css"/>
+    <script src="vbJS/vb-funcoes.js"></script>
+    <script src="vbJS/value.js"></script>
+    <script src="vbJS/car.js"></script>
+</head>
+<body>
+ <div class="wrapper">
+   <header>
+       <hgroup id="titulo-vb">
+          <h1>VB-imported</h1>
+          <h3>Encontre sua Moda</h3>
+       </hgroup>
+   
+       <img id="img-logovb" src="vbPHOTO/WhatsApp Image 2023-06-27 at 19.15.13.jpeg" alt="logo-vb" width="188px"/>
+
+      <nav id="nav-vb">
+         <ul type="disc">
+           <li><a href="index.html">Sobre</a></li>
+           <li><a href="vbcamisa.html">Camisa/camiseta</a></li>
+           <li><a href="vbCalca.html">Calça/Bermudas</a></li> 
+         </ul>
+      </nav>
+   </header> 
+
+    <form action = "" method="POST" id="vb-form">
+
+        <h2 class="vb-model">Polo Tommy Hilfiger</h2>
+        <img class="vb-cami" src="vbPHOTO/poloVerdeforte.jpeg" alt="" id="id-polO" width="300px"/>
+
+        <div class="vb-preco"><h1 id="preco">R$ 25,00</h1></div>
+
+       <hgroup id="vb-select">  
+        <h3><label for="vb-color">ESCOLHA A COR </label><select name="vb-color"  onchange="mudaFoto(this);" id="vb-color">
+               <option value="vbPHOTO/poloVerdeforte.jpeg">VERDE</option>
+               <option value="vbPHOTO/poloBlack.jpeg">PRETO</option>
+               <option value="vbPHOTO/poloPink.jpeg">ROSA</option>
+               <option value="vbPHOTO/poloGreenClaro.jpeg">VERDE CLARO</option>
+               <option value="vbPHOTO/poloBluedesbo.jpeg">AZUL MARINHO</option>
+               <option value="vbPHOTO/poloAzulClaro.jpeg">AZUL CLARO</option>
+               <option value="vbPHOTO/poloPretodesbo.jpeg">GRAFITE</option>
+               <option value="vbPHOTO/poloRed.jpeg">VERMELHO</option>>
+               <option value="vbPHOTO/poloPurple.jpeg">VINHO</option>
+        </select></h3>
+
+        <h3><label for="vb-size">ESCOLHA O TAMANHO </label><select name="vb-size" id="vb-size">
+            <option>P</option>
+            <option>M</option>
+            <option>G</option>
+            <option>GG</option>
+        </select></h3>
+      </hgroup> 
+
+        <hgroup id="vb-gene-quant">
+          <h2>Genero: M</h2>
+          <label for="vb-quantid"><h2>Quantidade:</label><input type="number" name="box-value" id="vb-quantid" required="" min="1" max="100"/></h2>
+        </hgroup>  
+
+          <input type="submit" value="COMPRAR" onclick="control()" name="pay-polo" id="payPolo"/> OU 
+          <input type="button" value="ADICIONAR AO CARRINHO" onclick="carro()" name="polo-car" id="poloCar"/></br>
+
+          <div id="divcarrinho"></div>
+          <div id="carrinhodiv"></div> 
+    </form>
+
+  <hgroup id="vb-location">
+     <p>ENDEREÇO: Av. Contorno, 1529 - Setor Norte Ferroviário</p>
+     <p>Goiania - GO, 74063-350 </p>
+     <p class="loca-vb">LOCALIZAÇÃO: Corredor 11,  Box 428</p>
+  </hgroup>
+
+ </div>    
+</body>
+</html>

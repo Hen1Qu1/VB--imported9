@@ -1,0 +1,58 @@
+
+img.vb-cami {
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+h2.vb-model {
+    margin-bottom: -15px;
+}
+
+div.vb-preco {
+    font-size: 20px;
+    margin: 5px;
+    margin-top: -10px;
+}
+
+input#vb-quantid {
+    font-size: 15pt;
+}
+
+select {
+    font-size: 12pt;
+}
+
+form#vb-form {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    padding-top: 8px;
+}
+
+input#payPolo {
+    font-size: 15pt;
+ }
+
+ 
+input#poloCar {
+    font-size: 12pt;
+ }
+
+input#vb-quantid {
+   outline: none;
+   border: none;
+   border-bottom: 1px solid black;
+}
+
+hgroup#vb-gene-quant {
+  display: block;
+  position: relative;
+  margin-left: -12px;
+}
+
+codd {
+    display: block;
+    position: relative;
+    right: 15px;
+    margin-bottom: 0px;
+}
